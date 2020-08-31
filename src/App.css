@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+}
+
+.flex-contant {
+  flex: 0 0 180px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.details {
+  display: flex;
+  margin: 15px;
+  border: 1px solid #ccc;
+}
+
+.details .image,
+.flex-contant .image {
+  height: 150px;
+  border-bottom: 1px solid grey;
+  background: #cc6d6d;
+}
+
+.details .image {
+  height: 200px;
+  width: 200px;
+}
+.details .text,
+.flex-contant .text {
+  padding: 0 16px 16px;
+}
+
+.details .text > button,
+.flex-contant .text > button {
+  background: #cc6d6d;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.details .text > button {
+  margin-top: 42px;
+}
+
+.orderedBook details {
+  display: flex;
+}
+
+.orderedBook .text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.orderedBook .text input {
+  margin-top: 25px;
+}
+
+.orderedBook .image {
+  height: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9a9696;
+  color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.Header h3 {
+  line-height: 10px;
+}
